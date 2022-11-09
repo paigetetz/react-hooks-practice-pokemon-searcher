@@ -5,8 +5,8 @@ const API = 'http://localhost:3001/pokemon'
 function PokemonForm({newPokemons}) {
   const [name, setName] = useState('')
   const [hp, setHp] = useState('')
-  const [fronturl, setFrontUrl] = useState('')
-  const [backurl, setBackUrl] = useState('')
+  const [front, setFront] = useState('')
+  const [back, setBack] = useState('')
   
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -14,8 +14,8 @@ function PokemonForm({newPokemons}) {
       name: name,
       hp: hp,
       sprites:{
-      fronturl: fronturl,
-      backurl: backurl}
+      front: front,
+      back: back}
   }
   fetch (API,{
     method: 'POST',
@@ -41,14 +41,14 @@ function PokemonForm({newPokemons}) {
             label="Front Image URL"
             placeholder="url"
             name="frontUrl"
-            value ={fronturl} onChange = {(e) => setFrontUrl (e.target.value)}
+            value ={front} onChange = {(e) => setFront (e.target.value)}
           />
           <Form.Input
             fluid
             label="Back Image URL"
             placeholder="url"
             name="backUrl"
-            value ={backurl} onChange = {(e) => setBackUrl (e.target.value)}
+            value ={back} onChange = {(e) => setBack (e.target.value)}
           />
         </Form.Group>
         <Form.Button>Submit</Form.Button>

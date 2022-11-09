@@ -17,7 +17,7 @@ function PokemonPage() {
   useEffect(() => {
     fetch(API)
     .then(resp => resp.json())
-    .then(data => setPokemons(data))
+    .then(data => {setPokemons(data)})
     }, [])
   return (
     <Container>

@@ -1,6 +1,15 @@
 {
   "pokemon": [
     {
+      "id": 1,
+      "name": "bulbasaur",
+      "hp": 40,
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      }
+    },
+    {
       "id": 2,
       "name": "ivysaur",
       "hp": 60,
@@ -1340,15 +1349,7 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
-    },
-    {
-      "name": "Mew",
-      "hp": "100",
-      "sprites": {
-        "fronturl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3cec7de-bd4b-4c3d-9907-91d990660372/dbbn317-51422971-14f7-4635-9082-cd378e58033f.png/v1/fill/w_160,h_160,strp/mega_mew_front_sprite_by_oshawottbijumaru_dbbn317-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwIiwicGF0aCI6IlwvZlwvYjNjZWM3ZGUtYmQ0Yi00YzNkLTk5MDctOTFkOTkwNjYwMzcyXC9kYmJuMzE3LTUxNDIyOTcxLTE0ZjctNDYzNS05MDgyLWNkMzc4ZTU4MDMzZi5wbmciLCJ3aWR0aCI6Ijw9MTYwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.OJqePiN03KM8fuWRfRwEpq53R8Lk3JuzcNVsuQrHzJE",
-        "backurl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b3cec7de-bd4b-4c3d-9907-91d990660372/dbbp06k-51ee0826-cb81-44de-a7a4-2228da760b84.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2IzY2VjN2RlLWJkNGItNGMzZC05OTA3LTkxZDk5MDY2MDM3MlwvZGJicDA2ay01MWVlMDgyNi1jYjgxLTQ0ZGUtYTdhNC0yMjI4ZGE3NjBiODQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4DHOKskUa0Q__6G0djbprFhBCMSTus7l8QVNb3IoZXs"
-      },
-      "id": 151
     }
+
   ]
 }
